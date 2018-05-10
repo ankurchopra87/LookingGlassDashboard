@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Looking Class Dashboard</title>
+        <meta name="viewport" content="initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+     <body>
+      
+        <div class="sidebar">
+            <h1>Dashboard</h1>
+            <div class='attribute-option-container'>
+                <h2>Marker Identifier</h2>
+                <input name="attribute-option" type="radio" id="ip-radio-button" checked="checked">
+                <label for="ip-radio-button">IP Address</label>
+                <br/>
+                <input name="attribute-option" type="radio" id="owner-radio-button">
+                <label for="owner-radio-button">Owner</label>
+            </div>
+            <div class="info-table">
+                <h2>Total Counts</h2>
+                <p>Web Servers: <span id='web-servers'>0</span></p>
+                <p>FTP Servers: <span id='ftp-servers'>0</span></p>
+                <p>Mail Servers: <span id='mail-servers'>0</span></p>
+            </div>
+
+            <div class="info-table">
+                    <h2>Viruses</h2>
+                    <p>APT1: <span id='apt1'>0</span></p>
+                    <p>Spam: <span id='spam'>0</span></p>
+                    <p>Botnet: <span id='botnet'>0</span></p>
+                    <p>StealCreds: <span id='steal-creds'>0</span></p>
+                </div>
+            <div class="footer">
+                <p>&copy; Ankur Chopra</p>
+            </div>
+        </div>  
+        <div class="main">
+            <div id="map"></div>
+        </div>
+    
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxxM4zi_8Cp9ejB9IYCstFRhoMehB-5Hs"></script>
+    
+    <script src="dataRender.js"></script>
+  </body>
+</html>

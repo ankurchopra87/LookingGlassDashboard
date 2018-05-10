@@ -1,0 +1,1 @@
+{"threatData":[{"ip":"10.223.75.186","virus":["APT1","Botnet"],"owner":"TMQ Financial","function":"web server"},{"ip":"10.209.130.213","virus":["Botnet","SPAM","StealCreds"],"owner":"Anderson Services","function":"ftp server"},{"ip":"10.122.29.151","virus":["SPAM"],"owner":"Anderson Services","function":"mail server"}]}

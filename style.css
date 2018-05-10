@@ -1,0 +1,65 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 0 auto; 
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar {
+    background-color: #d3f6ff;
+    width: 200px; 
+    height: 100%;
+    position: fixed;
+
+    top: 0;
+    left: 0; 
+    overflow: hidden; /* Diable horizontal scroll */
+    padding-top: 20px; 
+    font-size: 10pt;  
+    font-family: verdana,geneva;
+}
+
+.sidebar h1 {
+    text-align: center;
+    font-size: 20pt;
+    
+}
+
+.main {
+    margin-left: 200px;
+    height: 100%;
+    /* padding: 0px 10px;  */
+}
+
+.footer {
+    font-family: verdana,geneva;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /* background-color: #d3f6ff; */
+    color: black;
+    text-align: center;
+    z-index: 1;
+    width: 200px;
+}
+
+.attribute-option-container, .info-table{
+    margin-left: 10px; 
+}
+
+.attribute-option-container h2{
+    font-size: 12pt;         
+}
+
+.info-table h2{
+    font-family: verdana,geneva;
+    font-size: 12pt;    
+}
