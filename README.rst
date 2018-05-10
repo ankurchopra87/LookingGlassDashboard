@@ -11,7 +11,7 @@ This app uses node
 
 To run the sever:
 
->>> node app
+$ node app
 
 To view the dashboard: 
 
@@ -19,4 +19,4 @@ open 'index.html' in your browser
 
 To test the app:
 
->>> jasmine
+$ jasmine
